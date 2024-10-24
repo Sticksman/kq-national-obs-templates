@@ -1,0 +1,16 @@
+{
+  "cabinets": [
+    {
+      "sceneName": "bumblebear",
+      "cabinetName": "bbash7",
+      "token": "MD3w7HvVWiE9faa53w9T5hQjKS6ECDDCTtKp3Um_R2s",
+      "url": "ws://192.16.0.122:12749"
+    }
+  ],
+  "servers": [
+    {
+      "name": "HiveMind",
+      "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    }
+  ]
+}
