@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "HMAuto-game",
-    "current_program_scene": "HMAuto-game",
+    "current_scene": "HMAuto-post-blue-snail",
+    "current_program_scene": "HMAuto-post-blue-snail",
     "scene_order": [
         {
             "name": "HMAuto-game"
@@ -427,7 +427,7 @@
                         "name": "Hivemind Stats",
                         "source_uuid": "91f0b860-395a-440a-b7fc-94417f6c987f",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -500,7 +500,7 @@
                         "name": "Game Video",
                         "source_uuid": "9f0abe2f-3499-4dcb-9a68-7f18f7a5f5c6",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 4.0,
@@ -529,45 +529,6 @@
                         "blend_type": "normal",
                         "show_transition": {
                             "duration": 350
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Media Source",
-                        "source_uuid": "647ed0f9-61f8-451f-9489-6e0d5f82f7d9",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.2085937261581421,
-                            "y": 1.2083333730697632
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
                         },
                         "hide_transition": {
                             "duration": 0
@@ -629,8 +590,6 @@
             "hotkeys": {
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": []
             },
@@ -2262,7 +2221,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "undo_uuid": "00d94574-6c2a-42da-b19c-2462fc3d6084",
-                "url": "http://localhost:8087/overlay/101/postgame",
+                "url": "http://kqhivemind.com/overlay/116/auto",
                 "width": 1920,
                 "height": 1080,
                 "webpage_control_level": 4,
@@ -2298,7 +2257,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "http://localhost:8087/overlay/101/ingame",
+                "url": "http://kqhivemind.com/overlay/116/ingame",
                 "width": 1920,
                 "height": 1080,
                 "fps": 15,
@@ -2346,7 +2305,7 @@
                         "name": "Hivemind Auto",
                         "source_uuid": "00d94574-6c2a-42da-b19c-2462fc3d6084",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -2424,7 +2383,7 @@
                         "name": "[COMP] Game",
                         "source_uuid": "2317e678-8a05-4ea6-b207-fef983702280",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -2523,45 +2482,6 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "[COMP] Game",
-                        "source_uuid": "2317e678-8a05-4ea6-b207-fef983702280",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2731,8 +2651,6 @@
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": []
             },
@@ -3462,42 +3380,6 @@
         },
         {
             "prev_ver": 503447555,
-            "name": "Media Source",
-            "uuid": "647ed0f9-61f8-451f-9489-6e0d5f82f7d9",
-            "id": "ffmpeg_source",
-            "versioned_id": "ffmpeg_source",
-            "settings": {
-                "local_file": "/Users/mezzomind/Library/CloudStorage/Dropbox/Projects/Gamedev/KQ Assets/game-footage/kqcoolberry_game01.mov",
-                "looping": true
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Play": [],
-                "MediaSource.Pause": [],
-                "MediaSource.Stop": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
             "name": "Player Cam Border",
             "uuid": "1572ff3f-5fc6-41a6-a568-87f7c6f46848",
             "id": "browser_source",
@@ -3783,7 +3665,7 @@
                         "name": "Game Video",
                         "source_uuid": "9f0abe2f-3499-4dcb-9a68-7f18f7a5f5c6",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 4.0,
@@ -3812,45 +3694,6 @@
                         "blend_type": "normal",
                         "show_transition": {
                             "duration": 350
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Media Source",
-                        "source_uuid": "647ed0f9-61f8-451f-9489-6e0d5f82f7d9",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 210.0
-                        },
-                        "scale": {
-                            "x": 1.2085937261581421,
-                            "y": 1.2083333730697632
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
                         },
                         "hide_transition": {
                             "duration": 0
@@ -3900,7 +3743,7 @@
                         "name": "Video.Game",
                         "source_uuid": "f493639f-c509-4c52-89a9-ca6433725a95",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -4210,7 +4053,7 @@
                         "name": "Hivemind Stats",
                         "source_uuid": "91f0b860-395a-440a-b7fc-94417f6c987f",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
